@@ -1,21 +1,36 @@
 .heading {
-  margin: 1rem 0;
-  color: #222222;
+  //margin: 1rem 0;
+  //color: #222222;
+  //
+ &_1 {
+  font-size:  52px;
+   font-family: 'Pacifico', cursive;
+   font-family: 'Berkshire Swash', cursive;
+   font-family: 'Cookie', cursive;
+   font-family: 'Great Vibes', cursive;
 
-  &_1 {
-    font: normal normal 6rem 'PT Sans', $basic-font-stack;
-    line-height: 2rem;
-  }
+
+  //  line-height: 2rem;
+}
 
   &_2 {
-    font: normal $semibold-weight 2.2rem 'Raleway', $basic-font-stack;
+    font: normal $semibold-weight;
+    font-size: 52px;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Berkshire Swash', cursive;
+    font-family: 'Cookie', cursive;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Ubuntu', sans-serif;
   }
 
+  //
   &_3 {
-    font: normal $semibold-weight 2.4rem 'Raleway', $basic-font-stack;
+    font: normal $semibold-weight;
+    font-size: 16px;
+    color: #40474e;
   }
-
-  &_4 {
-    font: normal bold 1.8rem 'Raleway', $basic-font-stack;
-  }
+  //
+  //&_4 {
+  //  font: normal bold 1.8rem 'Raleway', $basic-font-stack;
+  //}
 }

@@ -1,77 +1,191 @@
 .header {
-  background: url('../img/bg.jpg') center/cover no-repeat;
-  border-top: 1rem solid #2ecc71;
+  background: url('../img/background/background.png') center/cover no-repeat;
   color: white;
+ padding-bottom: 119px;
 
-  &__container {
-    padding: 0 0 0 12rem;
-  }
-
+ //&__container {
+ //   padding: 0 0 0 12rem;
+ // }
+//
   &__heading {
-    margin: 19rem 0 0 0;
+   margin: 60px 0 40px 0;
     color: white;
   }
-
-  &__subheading {
-    font: normal normal 2.4rem 'PT Sans', $basic-font-stack;
-    line-height: 3.6rem;
-    margin: 6.7rem 0 0 0;
-    max-width: 45rem;
-  }
-
-  &__dot {
-    color: #2ecc71;
-  }
-
-  &__platform-menu {
-    margin: 2.4rem 0 17.8rem 0;
-
-    &-item {
-      display: inline-block;
-      margin: 0 1.5rem 0 0;
-      background: #362219;
-      opacity: .5;
-      box-sizing: border-box;
-      width: 5rem;
-      height: 5rem;
-      line-height: 5rem;
-      text-align: center;
-      border-radius: 50%;
+//
+// &__subheading {
+//   font: normal normal 2.4rem 'PT Sans', $basic-font-stack;
+//    line-height: 3.6rem;
+//    margin: 6.7rem 0 0 0;
+//   max-width: 45rem;
+//  }
+//
+//  &__dot {
+//    color: #2ecc71;
+//  }
 
 
-      &:hover {
-        background: #2ecc71;
-        opacity: 1;
-        cursor: pointer;
+
+  //
+    &__platform-menu {
+      margin: 40px 0 70px;
+
+      &-item {
+        display: inline-block;
+        margin: 0 3rem 0 0;
+        font:  $basic-font-stack;
+        font-size:13px ;
+        font-family: 'Pacifico', cursive;
+        font-family: 'Berkshire Swash', cursive;
+        font-family: 'Cookie', cursive;
+        font-family: 'Great Vibes', cursive;
+        font-family: 'Ubuntu', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        text-transform: capitalize;
       }
     }
-  }
 
+
+    &__link {
+      color: #848484;
+
+
+      text-transform: capitalize;
+    }
   &__platform-link {
     color: white;
-    font-size: 2.5rem;
   }
 
-  @media only screen and (max-width: $smaller-break-point) {
+    @media only screen and (max-width: $smaller-break-point) {
+      &__platform-menu {
+        margin: 2rem auto;
+
+        &-item {
+          display: block;
+          margin: {
+            bottom: 2rem;
+            right: 0;
+          }
+        }
+      }
+    }
+
+  //d
+  &__subtitle {
+    line-height: 0.5;
+    text-align: center;
+    margin-bottom:80px ;
+    &-heading{
+      display: inline-block;
+      position: relative;
+      font-size: 15px;
+    }
+    &-heading:before,
+    &-heading:after{
+      content: "";
+      position: absolute;
+      height: 5px;
+
+      border-top: 1px solid white;
+      top: 5px;
+      width: 100px;
+    }
+    &-heading:before {
+      right: 100%;
+      margin-right: 30px;
+    }
+    &-heading:after {
+      left: 100%;
+      margin-left: 30px;
+    }
+
+  }
+
+
+
+
+
+//
+//  &__platform-menu {
+//    margin: 2.4rem 0 17.8rem 0;
+//
+//    &-item {
+//      display: inline-block;
+//      margin: 0 3rem 0 0;
+
+      //
+      //display: inline-block;
+      //margin: 0 1.5rem 0 0;
+      //background: #362219;
+      //opacity: .5;
+      //box-sizing: border-box;
+      //width: 5rem;
+      //height: 5rem;
+     //line-height: 5rem;
+     // text-align: center;
+      //border-radius: 50%;
+//
+//
+//      &:hover {
+//        background: #2ecc71;
+//        opacity: 1;
+//        cursor: pointer;
+//      }
+//    }
+// }
+    //&__link {
+    //  color: rgba(227, 224, 66, 0);
+    //  font: normal normal 1.6rem 'PT Sans', $basic-font-stack;
+    //
+    //
+    //}
+  //&__platform-link {
+  //  color: white;
+  //  text-decoration: none;
+  //}
+  //  @media only screen and (max-width: $smaller-break-point) {
+  //    &__menu {
+  //      margin: 2rem auto;
+  //
+  //      &-item {
+  //        display: block;
+  //        margin: {
+  //          bottom: 2rem;
+  //          right: 0;
+  //        }
+  //      }
+  //    }
+  //  }
+//Переделать
+//.button__main{
+//  background-color: green;
+//  border-radius: 50%;
+//}
+
+
+  //header__subtitle subtitle
+
+  //
+ @media only screen and (max-width: $smaller-break-point) {
     text-align: center;
 
     &__container {
       padding: 0 1rem;
     }
 
-    &__subheading {
-      margin: {
-        left: auto;
-        right: auto;
-      }
-    }
-
+//    &__subheading {
+//      margin: {
+//        left: auto;
+//        right: auto;
+//      }
+//    }
+//
     &__heading {
-      margin-top: 10rem;
-    }
-  }
+           margin-top: 10rem;
+         }
 
-  &__platform-menu {
-    margin-bottom: 10rem;
   }
+//
+//  &__platform-menu {
+//    margin-bottom: 10rem;
+//  }
 }
