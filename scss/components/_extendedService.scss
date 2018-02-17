@@ -20,7 +20,7 @@ background-color: #d2d5da;
 
   &__menu {
 text-align: left;
-    margin: 60px 0;
+    margin: 60px 60px 60px 60px ;
 
 
     &-item {
@@ -51,7 +51,7 @@ text-align: left;
   @media only screen and (max-width: $smaller-break-point) {
     &__menu {
       text-align: justify;
-      margin-bottom: 0;
+      margin-bottom: 35px;
 
       &-item {
         flex-basis: auto;
