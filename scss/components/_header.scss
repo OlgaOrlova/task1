@@ -1,12 +1,15 @@
 .header {
   background: url('../img/background/background.png') center/cover no-repeat;
+  background-color: #eeeeef;
   color: white;
  padding-bottom: 119px;
 
+margin-bottom: 0;
  //&__container {
  //   padding: 0 0 0 12rem;
  // }
 //
+
   &__heading {
    margin: 60px 0 40px 0;
     color: white;
@@ -56,6 +59,10 @@
   }
 
     @media only screen and (max-width: $smaller-break-point) {
+      .header{
+        &__container {
+         margin-bottom: 0;
+        }
       &__platform-menu {
         margin: 2rem auto;
 
@@ -67,7 +74,7 @@
           }
         }
       }
-    }
+    }}
 
   //d
   &__subtitle {

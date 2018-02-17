@@ -26,11 +26,25 @@
   //
   &_3 {
     font: normal $semibold-weight;
-    font-size: 16px;
+    font-size: 14px;
     color: #40474e;
+  }
+  &_2 {
+    font: normal $semibold-weight;
+    font-size: 14px;
+    color: #f3f6ff;
   }
   //
   //&_4 {
   //  font: normal bold 1.8rem 'Raleway', $basic-font-stack;
   //}
+}
+
+.heading3{
+
+  &::before {
+    content: url('../img/icon/.png');
+    float: left;
+    margin: 0 15px 10px 0;
+  }
 }

@@ -1,6 +1,5 @@
-.features {
-background-color: #eeeeef;
-  margin-top: 0;
+.advantagers {
+  background-color: white;
   //&__heading {
   //  margin: 20px 0 20px 0;
   //
@@ -10,7 +9,23 @@ background-color: #eeeeef;
     margin-right: 30px;
   }
   &__text{
-    margin: 25px;
+    margin: 30px 0 0 0;
+    &-sign{
+      color:#66cab8 ;
+      &:after {
+        content: ">";
+        margin: 0 30px 40px 0;
+      }
+    }
+  }
+
+
+  &__item-textcontent{
+    position: relative;
+    flex: 1 1 auto;
+    padding-bottom: 10px;
+    width: 210px;
+    margin: auto;
   }
 
   &__menu {
@@ -19,7 +34,7 @@ background-color: #eeeeef;
     margin: 60px 0;
 
     &-item {
-      text-align: center;
+      text-align: left;
       flex-basis: 27.1%;
       font-size: 5rem;
       color: white;
@@ -30,9 +45,10 @@ background-color: #eeeeef;
     position: relative;
     flex: 1 1 auto;
     padding-bottom: 10px;
-    width: 180px;
+    width: 210px;
     margin: auto;
   }
+
 
 
   @media only screen and (max-width: $large-break-point) {
@@ -47,7 +63,7 @@ background-color: #eeeeef;
     &__menu {
       flex-flow: column nowrap;
       text-align: justify;
-      margin: 0;
+      margin-bottom: 0;
 
       &-item {
         flex-basis: auto;
@@ -58,5 +74,12 @@ background-color: #eeeeef;
   }
 }
 
+.d{
+color: black;
+  font-size: 12px;
+  display: block;
+}
 
-
+.vv{
+  text-align: left;
+}
