@@ -1,7 +1,7 @@
 .button{
 
-  background-color: #50c3af;
-  border: #50c3af;
+  background-color: $primary-button-color;
+  border: $primary-button-color;
 
   &_big{
     padding: 20px 45px 20px 45px;

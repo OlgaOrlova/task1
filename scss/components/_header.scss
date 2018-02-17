@@ -1,34 +1,16 @@
 .header {
   background: url('../img/background/background.png') center/cover no-repeat;
-  background-color: #eeeeef;
+  background-color: $color-background-dark;
   color: white;
  padding-bottom: 119px;
 
 margin-bottom: 0;
- //&__container {
- //   padding: 0 0 0 12rem;
- // }
-//
 
   &__heading {
    margin: 60px 0 40px 0;
     color: white;
   }
-//
-// &__subheading {
-//   font: normal normal 2.4rem 'PT Sans', $basic-font-stack;
-//    line-height: 3.6rem;
-//    margin: 6.7rem 0 0 0;
-//   max-width: 45rem;
-//  }
-//
-//  &__dot {
-//    color: #2ecc71;
-//  }
 
-
-
-  //
     &__platform-menu {
       margin: 40px 0 70px;
 
@@ -76,7 +58,6 @@ margin-bottom: 0;
       }
     }}
 
-  //d
   &__subtitle {
     line-height: 0.5;
     text-align: center;

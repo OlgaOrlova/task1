@@ -16,6 +16,11 @@
     color: white;
 
   }
+  &__fonts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
   &__menu {
     display: flex;
@@ -70,13 +75,7 @@
   float: left;
   margin: 0 -15px 10px 0;
 }
-.dd{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
 
-
-}
 .nameFeature1{
 font-family: 'Dancing Script', cursive;
   font-family: 'Great Vibes', cursive;
