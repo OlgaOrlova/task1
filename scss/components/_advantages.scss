@@ -1,26 +1,25 @@
 .advantages {
   background-color: $color-background-light;
-  &__container{
+  &__container {
     margin-left: 30px;
     margin-right: 30px;
   }
 
-  &__text{
+  &__text {
     margin: 30px 0 0 0;
-    &-sign{
-      color:#66cab8;
+    &-sign {
+      color: #66cab8;
       &:after {
         content: ">";
         margin: 0 30px 40px 0;
       }
     }
-    &-link{
-      color:#66cab8;
+    &-link {
+      color: #66cab8;
     }
   }
 
-
-  &__item-textcontent{
+  &__item-textcontent {
     position: relative;
     flex: 1 1 auto;
     padding-bottom: 10px;
@@ -43,7 +42,7 @@
     }
 
   }
-  &__item-content{
+  &__item-content {
     box-shadow: 0 6px 4px -4px $color-box-shadow;
     position: relative;
     flex: 1 1 auto;
@@ -51,8 +50,6 @@
     width: 210px;
     margin: auto;
   }
-
-
 
   @media only screen and (max-width: $large-break-point) {
     &__menu {

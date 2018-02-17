@@ -1,24 +1,22 @@
-.extendedService{
+.extendedService {
   background-color: $color-background-dark;
 
-  &__container{
+  &__container {
     margin-left: 30px;
     margin-right: 30px;
-
   }
-  &__text{
+  &__text {
     margin: 30px 0 0 0;
     text-align: left;
   }
-  &__button{
-background-color: #d2d5da;
+  &__button {
+    background-color: #d2d5da;
     margin-top: 40px;
   }
 
   &__menu {
-text-align: left;
-    margin: 60px 60px 60px 60px ;
-
+    text-align: left;
+    margin: 60px 60px 60px 60px;
 
     &-item {
       text-align: left;
@@ -27,16 +25,13 @@ text-align: left;
     }
   }
 
-
-
   @media only screen and (max-width: $large-break-point) {
     &__menu {
       &-item {
         flex-basis: 30%;
-
       }
     }
-    .item{
+    .item {
       box-shadow: 0 6px 4px -4px $color-box-shadow;
       position: relative;
       flex: 1 1 auto;
@@ -54,11 +49,10 @@ text-align: left;
         flex-basis: auto;
         max-width: 30rem;
         margin: 0 auto 5rem;
-
       }
 
     }
-    .item{
+    .item {
       box-shadow: 0 6px 4px -4px $color-box-shadow;
       position: relative;
       flex: 1 1 auto;
@@ -68,9 +62,7 @@ text-align: left;
   }
 }
 
-
-
-.item{
+.item {
   box-shadow: 0 6px 4px -4px $color-box-shadow;
   position: relative;
   flex: 1 1 auto;

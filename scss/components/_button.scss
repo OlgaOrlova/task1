@@ -1,18 +1,18 @@
-.button{
+.button {
 
   background-color: $primary-button-color;
   border: $primary-button-color;
 
-  &_big{
+  &_big {
     padding: 20px 45px 20px 45px;
-    border-radius: 30px ;
+    border-radius: 30px;
     font-size: 15px;
     color: white;
     text-align: center;
   }
-  &_middle{
-    padding:8px 15px 8px 15px;
-    border-radius: 30px ;
+  &_middle {
+    padding: 8px 15px 8px 15px;
+    border-radius: 30px;
     font-size: 14px;
     color: white;
     text-align: center;

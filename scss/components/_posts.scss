@@ -1,7 +1,7 @@
 .posts {
   background-color: $color-background-dark;
 
-  &__container{
+  &__container {
     margin-left: 30px;
     margin-right: 30px;
   }
@@ -21,7 +21,7 @@
     }
   }
 
-  &__item-content{
+  &__item-content {
     box-shadow: 0 6px 4px -4px $color-box-shadow;
     position: relative;
     flex: 1 1 auto;
@@ -29,19 +29,16 @@
     width: 270px;
     margin: auto;
   }
-  &__text{
+  &__text {
     margin: 30px 0 0 0;
   }
-  &__item-textcontent{
+  &__item-textcontent {
     position: relative;
     flex: 1 1 auto;
     padding-bottom: 10px;
     width: 270px;
     margin: auto;
   }
-
-
-
 
   @media only screen and (max-width: $large-break-point) {
     &__menu {
@@ -66,16 +63,14 @@
   }
 }
 
-
 .indicator-first::before {
   content: url('../img/icon/w.png');;
   margin: 0 30px 40px 0;
   float: left;
-
 }
+
 .indicator-second::before {
   content: url('../img/icon/✎.png');;
   margin: 0 30px 40px 0;
   float: left;
-
 }
