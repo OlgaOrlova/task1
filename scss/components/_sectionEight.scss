@@ -1,0 +1,91 @@
+.sectionEight {
+  background-color: #50c3af;
+  padding-bottom: 30px;
+
+  &__container {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  &__text {
+    margin: 25px;
+    font-size: 26px;
+    color: white;
+
+  }
+  &__fonts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  &__menu {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0 20px;
+
+    &-item {
+
+      flex-basis: 27.1%;
+      font-size: 5rem;
+      color: white;
+    }
+  }
+  &__item-content {
+    box-shadow: 0 2px 4px -4px rgb(243, 246, 255);
+    position: relative;
+    flex: 1 1 auto;
+    padding-bottom: 10px;
+    width: 280px;
+    margin: auto;
+  }
+
+  @media only screen and (max-width: $large-break-point) {
+    &__menu {
+      &-item {
+        flex-basis: 30%;
+      }
+    }
+  }
+
+  @media only screen and (max-width: $smaller-break-point) {
+    &__container {
+      overflow: hidden;
+    }
+    &__menu {
+      flex-flow: column nowrap;
+      text-align: justify;
+      margin-bottom: 0;
+
+      &-item {
+        flex-basis: auto;
+        max-width: 30rem;
+        margin: 0 auto 5rem;
+      }
+    }
+  }
+}
+
+.headingIcon::before {
+  content: url('../img/icon/star.png');
+  float: left;
+  margin: 0 -15px 10px 0;
+}
+
+.nameFeature1 {
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Great Vibes', cursive;
+}
+
+.nameFeature3 {
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Great Vibes', cursive;
+  font-family: 'Acme', sans-serif;
+}
+
+.nameFeature4 {
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Great Vibes', cursive;
+  font-family: 'Acme', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
+}

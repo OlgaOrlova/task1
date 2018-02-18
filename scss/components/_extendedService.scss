@@ -1,49 +1,66 @@
-.features {
+
+.extendedService {
   background-color: $color-background-dark;
-  margin-top: 0;
+
   &__container {
     margin-left: 30px;
     margin-right: 30px;
+    padding: 50px;
   }
-  &__text {
-    margin: 25px;
+  &__button {
+    background-color: #d2d5da;
+    margin-top: 40px;
   }
-
   &__menu {
+
     display: flex;
     justify-content: center;
-    margin: 60px 0;
+    margin-right: 10px;
+    margin-left: 30px;
 
     &-item {
-      text-align: center;
-      flex-basis: 18.1%;
+      margin-left: 10px;
+      margin-right: 10px;
+      text-align: left;
+      flex-basis: 65.1%;
       font-size: 5rem;
       color: white;
+
     }
   }
+
   &__item-content {
     box-shadow: 0 6px 4px -4px $color-box-shadow;
     position: relative;
     flex: 1 1 auto;
     padding-bottom: 10px;
-    width: 180px;
+    width: auto;
+
+  }
+  &__text {
+    margin: 30px 0 0 0;
+  }
+  &__item-textcontent {
+    position: relative;
+    flex: 1 1 auto;
+    padding-bottom: 10px;
+    width: auto;
     margin: auto;
   }
 
   @media only screen and (max-width: $large-break-point) {
     &__menu {
       &-item {
-        flex-basis: 30%;
+        flex-basis: 65.1%;;
       }
     }
   }
 
   @media only screen and (max-width: $smaller-break-point) {
     &__menu {
-
       flex-flow: column nowrap;
       text-align: justify;
-      margin: 0;
+      margin-bottom: 0;
 
       &-item {
         flex-basis: auto;
@@ -54,5 +71,9 @@
   }
 }
 
-
+.indicator::before {
+  content: url('../img/icon/circl.png');
+  margin: 0 30px 40px 0;
+  float: left;
+}
 

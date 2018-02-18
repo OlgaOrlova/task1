@@ -1,24 +1,23 @@
-.features {
-  background-color: $color-background-dark;
-  margin-top: 0;
+.sectionSeven {
+  background-color: $color-background-light;
+
   &__container {
     margin-left: 30px;
     margin-right: 30px;
   }
-  &__text {
-    margin: 25px;
-  }
-
   &__menu {
     display: flex;
     justify-content: center;
     margin: 60px 0;
 
     &-item {
-      text-align: center;
-      flex-basis: 18.1%;
+
+      text-align: left;
+      flex-basis: 24.1%;
       font-size: 5rem;
       color: white;
+      margin-right: 10px;
+      margin-right: 10px;
     }
   }
   &__item-content {
@@ -26,10 +25,19 @@
     position: relative;
     flex: 1 1 auto;
     padding-bottom: 10px;
-    width: 180px;
+    width: 270px;
     margin: auto;
   }
-
+  &__text {
+    margin: 18px 0 0 0;
+  }
+  &__item-textcontent {
+    position: relative;
+    flex: 1 1 auto;
+    padding-top: 2px;
+    width: 270px;
+    margin: auto;
+  }
   @media only screen and (max-width: $large-break-point) {
     &__menu {
       &-item {
@@ -39,20 +47,21 @@
   }
 
   @media only screen and (max-width: $smaller-break-point) {
-    &__menu {
 
+    &__menu {
       flex-flow: column nowrap;
       text-align: justify;
-      margin: 0;
+      margin-bottom: 0;
 
       &-item {
+
         flex-basis: auto;
         max-width: 30rem;
         margin: 0 auto 30px;
       }
     }
+
   }
 }
-
 
 
