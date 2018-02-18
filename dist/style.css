@@ -430,8 +430,8 @@
 .advantages__menu {
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: justify;
-      justify-content: space-between;
+  -ms-flex-pack: center;
+      justify-content: center;
   margin: 60px 0;
 }
 
@@ -439,8 +439,8 @@
   margin-left: 10px;
   margin-right: 10px;
   text-align: left;
-  -ms-flex-preferred-size: 27.1%;
-      flex-basis: 27.1%;
+  -ms-flex-preferred-size: 18.1%;
+      flex-basis: 18.1%;
   font-size: 5rem;
   color: white;
 }
@@ -487,11 +487,14 @@
 }
 
 .posts__menu {
+  -ms-flex-preferred-size: 29.1%;
+      flex-basis: 29.1%;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
       justify-content: center;
-  margin: 60px 0;
+  margin-right: 10px;
+  margin-right: 10px;
 }
 
 .posts__menu-item {
@@ -579,13 +582,13 @@
 }
 
 .sectionSeven__menu-item {
-  margin-left: 10px;
-  margin-right: 10px;
   text-align: left;
-  -ms-flex-preferred-size: 27.1%;
-      flex-basis: 27.1%;
+  -ms-flex-preferred-size: 24.1%;
+      flex-basis: 24.1%;
   font-size: 5rem;
   color: white;
+  margin-right: 10px;
+  margin-right: 10px;
 }
 
 .sectionSeven__item-content {
