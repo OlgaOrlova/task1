@@ -217,7 +217,7 @@
   color: #40474e;
 }
 
-.heading_2 {
+.heading_4 {
   font: normal 600;
   font-size: 14px;
   color: #f3f6ff;
@@ -709,7 +709,7 @@
 }
 
 .headingIcon::before {
-  content: url("../img/icon/★.png");
+  content: url("../img/icon/star.png");
   float: left;
   margin: 0 -15px 10px 0;
 }
