@@ -1,71 +1,79 @@
+
 .extendedService {
   background-color: $color-background-dark;
 
   &__container {
     margin-left: 30px;
     margin-right: 30px;
-  }
-  &__text {
-    margin: 30px 0 0 0;
-    text-align: left;
+    padding: 50px;
   }
   &__button {
     background-color: #d2d5da;
     margin-top: 40px;
   }
-
   &__menu {
-    text-align: left;
-    margin: 60px 60px 60px 60px;
+
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    margin-left: 30px;
 
     &-item {
+      margin-left: 10px;
+      margin-right: 10px;
       text-align: left;
+      flex-basis: 65.1%;
       font-size: 5rem;
       color: white;
+
     }
+  }
+
+  &__item-content {
+    box-shadow: 0 6px 4px -4px $color-box-shadow;
+    position: relative;
+    flex: 1 1 auto;
+    padding-bottom: 10px;
+    width: auto;
+
+  }
+  &__text {
+    margin: 30px 0 0 0;
+  }
+  &__item-textcontent {
+    position: relative;
+    flex: 1 1 auto;
+    padding-bottom: 10px;
+    width: auto;
+    margin: auto;
   }
 
   @media only screen and (max-width: $large-break-point) {
     &__menu {
       &-item {
-        flex-basis: 30%;
+        flex-basis: 65.1%;;
       }
-    }
-    .item {
-      box-shadow: 0 6px 4px -4px $color-box-shadow;
-      position: relative;
-      flex: 1 1 auto;
-      padding-bottom: 10px;
-      margin: auto;
     }
   }
 
   @media only screen and (max-width: $smaller-break-point) {
     &__menu {
+      flex-flow: column nowrap;
       text-align: justify;
-      margin-bottom: 35px;
+      margin-bottom: 0;
 
       &-item {
         flex-basis: auto;
         max-width: 30rem;
-        margin: 0 auto 5rem;
+        margin: 0 auto 30px;
       }
-
-    }
-    .item {
-      box-shadow: 0 6px 4px -4px $color-box-shadow;
-      position: relative;
-      flex: 1 1 auto;
-      padding-bottom: 10px;
-      margin-bottom: 30px;
     }
   }
 }
 
-.item {
-  box-shadow: 0 6px 4px -4px $color-box-shadow;
-  position: relative;
-  flex: 1 1 auto;
-  padding-bottom: 10px;
-  margin: auto;
+.indicator::before {
+  content: url('../img/icon/circl.png');
+  margin: 0 30px 40px 0;
+  float: left;
 }
+
