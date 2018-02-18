@@ -16,15 +16,15 @@
 .features__menu {
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: justify;
-      justify-content: space-between;
+  -ms-flex-pack: center;
+      justify-content: center;
   margin: 60px 0;
 }
 
 .features__menu-item {
   text-align: center;
-  -ms-flex-preferred-size: 27.1%;
-      flex-basis: 27.1%;
+  -ms-flex-preferred-size: 18.1%;
+      flex-basis: 18.1%;
   font-size: 5rem;
   color: white;
 }
@@ -266,8 +266,8 @@
   margin-right: 10px;
   margin-right: 10px;
   text-align: left;
-  -ms-flex-preferred-size: 27.1%;
-      flex-basis: 27.1%;
+  -ms-flex-preferred-size: 29.1%;
+      flex-basis: 29.1%;
   font-size: 5rem;
   color: white;
 }
